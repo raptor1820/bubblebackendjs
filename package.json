@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@extractus/article-extractor": "^8.0.10",
+    "dotenv": "^16.4.5",
+    "hono": "^4.4.4",
+    "openai": "^4.49.0",
+    "string-strip-html": "^13.4.8"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
