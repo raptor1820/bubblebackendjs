@@ -3,6 +3,7 @@ import { logger } from "hono/logger";
 import driver from "./driver";
 
 const app = new Hono();
+console.log("Server started?");
 app.use(logger());
 app.get("/", async (c) => {
     let url;
