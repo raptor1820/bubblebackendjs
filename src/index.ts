@@ -20,4 +20,5 @@ app.get("/", async (c) => {
         });
 });
 
+app.fire();
 export default app;
