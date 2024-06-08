@@ -2,7 +2,7 @@
     "type": "module",
     "scripts": {
         "dev": "bun run --hot src/index.ts",
-        "start": "bun run src/index.ts"
+        "start": "bun run --hot src/index.ts"
     },
     "dependencies": {
         "@extractus/article-extractor": "^8.0.10",
