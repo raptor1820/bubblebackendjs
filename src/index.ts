@@ -1,7 +1,9 @@
 import { Hono } from "hono";
+import { logger } from "hono/logger";
 import driver from "./driver";
-const app = new Hono();
 
+const app = new Hono();
+app.use(logger());
 app.get("/", async (c) => {
     let url;
     let param = c.req.queries("url");
