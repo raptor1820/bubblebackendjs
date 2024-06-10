@@ -15,11 +15,4 @@ const extractArticleText = async (articleUrl: string) => {
     return cleantext;
 };
 
-// async function main() {
-//     const text = await extractArticleText(
-//         "https://rwfggggg/lebanon-israel-hezbollah.html"
-//     );
-//     console.log(text);
-// }
-// main();
 export default extractArticleText;
